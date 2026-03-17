@@ -6,7 +6,7 @@
   - Instructions: https://ao3.org/works/65849527
   - Repository:   https://github.com/ZerafinaCSS/neos
   - License:      MIT
-  - Updated:      2026-Mar-14 18:47 UTC
+  - Last Edited:      2026-Mar-17 16:56
 
   ==========================================================";
 }
@@ -68,7 +68,7 @@ Rose:     https://coolors.co/ab6f7d-c93b6a-d83f6c-d96aa9-e077ac-f59db3-ffabdf-ff
   --border4:             #6F6567;                  /* meta boxes, tooltips, some heading underlines, scrollbar thumb etc. */
 
   /* width */
-  --border-width:        1px;                      /* for almost all borders (experimental - changing this might cause some weirdness) */
+  --border-width:        1.5px;                      /* for almost all borders (experimental - changing this might cause some weirdness) */
 
 
 /*>========== SHADOWS ==========<*/
@@ -95,8 +95,8 @@ Rose:     https://coolors.co/ab6f7d-c93b6a-d83f6c-d96aa9-e077ac-f59db3-ffabdf-ff
 
   /* links */
   --link:                #F59DB3;                  /* link color */
-  --link-hgl:            #FFB3D8;                  /* color for hovered/focused links */
-  --link-visited:        #89767A;                  /* color for already visited links + header search bar icon */
+  --link-hgl:            #C93B6A;                  /* color for hovered/focused links */
+  --link-visited:        #7D7272;                  /* color for already visited links + header search bar icon */
   --link-underline:      1px solid transparent;    /* link underline => delete "transparent" to make link underlines visible */
 
 
@@ -129,20 +129,20 @@ Rose:     https://coolors.co/ab6f7d-c93b6a-d83f6c-d96aa9-e077ac-f59db3-ffabdf-ff
   --icon1:               #46B97C;                  /* gen, complete, public bookmark */
   --icon2:               #FFDC2E;                  /* teen */
   --icon3:               #499ABF;                  /* m/m, external work */
-  --icon4:               #FC955C;                  /* mature, chose not to warn, rss feed */
-  --icon5:               #D04091;                  /* f/m */
+  --icon4:               #F08C54;                  /* mature, chose not to warn, rss feed */
+  --icon5:               #B02C9A;                  /* f/m */
   --icon6:               #C93B6A;                  /* explicit, f/f, warning, incomplete */
   --icon7:               #AB6F7D;                  /* private bookmark */
   --icon8:               #89767A;                  /* hidden bookmark */
   --icon9:               #F9678C;                  /* rec bookmark */
 
   /* gradient overlay for the bookmark and content icons above */
-  --icon-grd:            linear-gradient(135deg, transparent, #1D1D1D75);
+  --icon-grd:            none;
 
   /* other icons */
-  --icon-bg:             linear-gradient(135deg, #323232, #545454); /* background for empty icon box or uploaded icon with transparent background */
-  --icon-id:             linear-gradient(135deg, #FFABDF, #434343); /* user, skin, tag, admin */
-  --icon-anon:           linear-gradient(135deg, #6F6567, #323232); /* guest, anonymous user */
+  --icon-bg:             #1D1D1D;  /*  linear-gradient(135deg, #323232, #545454); background for empty icon box or uploaded icon with transparent background */
+  --icon-id:             linear-gradient(135deg, #F59DB3, #434343); /* user, skin, tag, admin */
+  --icon-anon:           #1D1D1D; /* guest, anonymous user */
   --icon-coll:           linear-gradient(135deg, #F59DB3, #434343); /* collection, unrevealed work */
 
   /* icon borders */

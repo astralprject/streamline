@@ -6,7 +6,7 @@
   - Instructions: https://ao3.org/works/65849527
   - Repository:   https://github.com/ZerafinaCSS/neos
   - License:      MIT
-  - Last Edited:      2026-Mar-17 16:56
+  - Last Edited:      2026-Mar-17 17:53
 
   ==========================================================";
 }
@@ -82,8 +82,8 @@ Rose:     https://coolors.co/ab6f7d-c93b6a-d83f6c-d96aa9-e077ac-f59db3-ffabdf-ff
 /*>========== MAIN TEXT ==========<*/
 
   /* text size */
-  --txt-size-main:       100%;                     /* main text size (bigger than 130% causes some issues, but is still mostly functional) */
-  --txt-size-work:       110%;                     /* work text size */
+  --txt-size-main:       105%;                     /* main text size (bigger than 130% causes some issues, but is still mostly functional) */
+  --txt-size-work:       105%;                     /* work text size */
 
   /* text colors */
   --txt-header:          #F59DB3;                  /* header text */
@@ -127,8 +127,8 @@ Rose:     https://coolors.co/ab6f7d-c93b6a-d83f6c-d96aa9-e077ac-f59db3-ffabdf-ff
   /* bookmark and content icons (mostly) */
 /* CHANGED */  
   --icon1:               #46B97C;                  /* gen, complete, public bookmark */
-  --icon2:               #FFDC2E;                  /* teen */
-  --icon3:               #499ABF;                  /* m/m, external work */
+  --icon2:               #F2D852;                  /* teen */
+  --icon3:               #3C70BA;                  /* m/m, external work */
   --icon4:               #F08C54;                  /* mature, chose not to warn, rss feed */
   --icon5:               #B02C9A;                  /* f/m */
   --icon6:               #C93B6A;                  /* explicit, f/f, warning, incomplete */
@@ -153,22 +153,22 @@ Rose:     https://coolors.co/ab6f7d-c93b6a-d83f6c-d96aa9-e077ac-f59db3-ffabdf-ff
 /*>========== TAG COLORS ==========<*/
 
   /* background */
-  --tag-default-bg:      linear-gradient(135deg, #FFABDF0D, #00000026);
-  --tag-fandom-bg:       #111111;
+  --tag-default-bg:      #171717;
+  --tag-fandom-bg:       #171717;
   --tag-warning-bg:      #C93B6A;
   --tag-ship-bg:         #D96A95;
-  --tag-platonic-bg:     #E0ABC1;
-  --tag-character-bg:    #111111; 
-  --tag-freeform-bg:     #111111; 
+  --tag-platonic-bg:     #F59DC1;
+  --tag-character-bg:    #171717; 
+  --tag-freeform-bg:     #171717; 
 
   /* text */
   --tag-default-txt:     #D3C5C8;
   --tag-fandom-txt:      #D3C5C8;
-  --tag-warning-txt:     #111111;
-  --tag-ship-txt:        #111111;
-  --tag-platonic-txt:    #111111;
+  --tag-warning-txt:     #171717;
+  --tag-ship-txt:        #171717;
+  --tag-platonic-txt:    #171717;
   --tag-character-txt:   #E077AC;  /* darker */
-  --tag-freeform-txt:    #FFB3D8;  /* lighter */
+  --tag-freeform-txt:    #FFADCD;  /* lighter */
 
   /* border */
   --tag-border:          transparent;
@@ -176,7 +176,7 @@ Rose:     https://coolors.co/ab6f7d-c93b6a-d83f6c-d96aa9-e077ac-f59db3-ffabdf-ff
   
   /* hover and focus */
   --tag-hgl-bg:          linear-gradient(135deg, #D3C5C8, #FFB3D8, #F59DB3); /* background */
-  --tag-hgl-txt:         #111111;                  /* text */
+  --tag-hgl-txt:         #171717;                  /* text */
 
 
 /*>========== COLORS FOR ROLES AND STATES + SYSTEM MESSAGES ==========<*/
@@ -202,7 +202,7 @@ Rose:     https://coolors.co/ab6f7d-c93b6a-d83f6c-d96aa9-e077ac-f59db3-ffabdf-ff
   --header-icon-hgl:     brightness(0) saturate(100%) invert(90%) sepia(9%) saturate(185%) hue-rotate(295deg) brightness(101%) contrast(104%); /* hover/focus */
   --kudos-icon:          brightness(0) saturate(100%) invert(52%) sepia(26%) saturate(736%) hue-rotate(287deg) brightness(102%) contrast(93%);
   --lock-icon:           brightness(0) saturate(100%) invert(87%) sepia(12%) saturate(152%) hue-rotate(297deg) brightness(90%) contrast(95%);
-  --stats-icon:          brightness(0) saturate(100%) invert(74%) sepia(8%) saturate(1115%) hue-rotate(296deg) brightness(108%) contrast(79%) opacity(75%);
+  --stats-icon:          brightness(0) saturate(100%) invert(30%) sepia(7%) saturate(313%) hue-rotate(314deg) brightness(101%) contrast(89%);
   --stat-chart:          invert(100%) hue-rotate(150deg) brightness(85%) contrast(77%);
   --rich-txt-editor:     invert(95%) saturate(0);
 

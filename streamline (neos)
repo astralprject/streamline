@@ -127,7 +127,7 @@ Rose:     https://coolors.co/ab6f7d-c93b6a-d83f6c-d96aa9-e077ac-f59db3-ffabdf-ff
   /* bookmark and content icons (mostly) */
 /* CHANGED */  
   --icon1:               #46B97C;                  /* gen, complete, public bookmark */
-  --icon2:               #FFEF5C;                  /* teen */
+  --icon2:               #FFDC2E;                  /* teen */
   --icon3:               #499ABF;                  /* m/m, external work */
   --icon4:               #FC955C;                  /* mature, chose not to warn, rss feed */
   --icon5:               #D04091;                  /* f/m */
@@ -137,7 +137,7 @@ Rose:     https://coolors.co/ab6f7d-c93b6a-d83f6c-d96aa9-e077ac-f59db3-ffabdf-ff
   --icon9:               #F9678C;                  /* rec bookmark */
 
   /* gradient overlay for the bookmark and content icons above */
-/* CHANGED  --icon-grd:            linear-gradient(135deg, transparent, #1D1D1D75); */
+  --icon-grd:            linear-gradient(135deg, transparent, #1D1D1D75);
 
   /* other icons */
   --icon-bg:             linear-gradient(135deg, #323232, #545454); /* background for empty icon box or uploaded icon with transparent background */
@@ -154,12 +154,12 @@ Rose:     https://coolors.co/ab6f7d-c93b6a-d83f6c-d96aa9-e077ac-f59db3-ffabdf-ff
 
   /* background */
   --tag-default-bg:      linear-gradient(135deg, #FFABDF0D, #00000026);
-  --tag-fandom-bg:       linear-gradient(135deg, #FFABDF0D, #00000026);
-  --tag-warning-bg:      #C93B6A; /* linear-gradient(135deg, #D3C5C84D, #1D1D1D33); */
-  --tag-ship-bg:         #D96AA9; /* linear-gradient(135deg, #D3C5C84D, #1D1D1D4D); */
-  --tag-platonic-bg:     #BD5187; /* was #D96AA9 linear-gradient(135deg, #D3C5C84D, #1D1D1D4D); */
-  --tag-character-bg:    #111111; /* linear-gradient(135deg, #FFABDF0D, #00000026); */
-  --tag-freeform-bg:     #111111; /* linear-gradient(135deg, #FFABDF0D, #00000026); */
+  --tag-fandom-bg:       #111111;
+  --tag-warning-bg:      #C93B6A;
+  --tag-ship-bg:         #D96A95;
+  --tag-platonic-bg:     #E0ABC1;
+  --tag-character-bg:    #111111; 
+  --tag-freeform-bg:     #111111; 
 
   /* text */
   --tag-default-txt:     #D3C5C8;
@@ -171,8 +171,8 @@ Rose:     https://coolors.co/ab6f7d-c93b6a-d83f6c-d96aa9-e077ac-f59db3-ffabdf-ff
   --tag-freeform-txt:    #FFB3D8;  /* lighter */
 
   /* border */
-  --tag-border:          #AB6F7D59;
-  --tag-border-width:        2px;
+  --tag-border:          transparent;
+
   
   /* hover and focus */
   --tag-hgl-bg:          linear-gradient(135deg, #D3C5C8, #FFB3D8, #F59DB3); /* background */

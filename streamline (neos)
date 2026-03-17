@@ -6,7 +6,7 @@
   - Instructions: https://ao3.org/works/65849527
   - Repository:   https://github.com/ZerafinaCSS/neos
   - License:      MIT
-  - Last Edited:      2026-Mar-17 17:53
+  - Last Edited:      2026-Mar-17 18:23
 
   ==========================================================";
 }
@@ -32,7 +32,7 @@ Rose:     https://coolors.co/ab6f7d-c93b6a-d83f6c-d96aa9-e077ac-f59db3-ffabdf-ff
   /* space on left/right side of screen */
   --margins-header:      1rem;                     /* header on desktop */
   --margins-main:        5%;                       /* site contents on desktop */
-  --margins-narrow:      2.5%;                     /* site contents and header on tablet/mobile */
+  --margins-narrow:      5%;                       /* site contents and header on tablet/mobile */
 
   /* border-radius (= roundness of corners) */
   --radius-small:        4px;                      /* smaller elements: list elements, input elements etc. */
@@ -65,7 +65,7 @@ Rose:     https://coolors.co/ab6f7d-c93b6a-d83f6c-d96aa9-e077ac-f59db3-ffabdf-ff
   --border1:             #434343;                  /* dashboard, footer, news, blockquote, scrollbar track etc. */
   --border2:             #434343;                  /* header, tables, forms, input elements, listbox etc. */
   --border3:             #434343;                  /* content boxes (blurbs, comments etc.), dropdown and secondary menus */
-  --border4:             #6F6567;                  /* meta boxes, tooltips, some heading underlines, scrollbar thumb etc. */
+  --border4:             #6F6B65;                  /* meta boxes, tooltips, some heading underlines, scrollbar thumb etc. */
 
   /* width */
   --border-width:        1.5px;                      /* for almost all borders (experimental - changing this might cause some weirdness) */
@@ -86,16 +86,16 @@ Rose:     https://coolors.co/ab6f7d-c93b6a-d83f6c-d96aa9-e077ac-f59db3-ffabdf-ff
   --txt-size-work:       105%;                     /* work text size */
 
   /* text colors */
-  --txt-header:          #F59DB3;                  /* header text */
-  --txt-header-hgl:      #FDEDF1;                  /* selected header dropdown toggle and link items */
-  --txt-header-hgl-h1:   linear-gradient(135deg, #FDEDF1, #FFB3D8, #AB6F7D); /* gradient for selected AO3 header title */
-  --txt-main:            #D3C5C8;                  /* main body text */
-  --txt-alt1:            #D3C5C8;                  /* announcements */
+  --txt-header:          #D99E73;  /* #F59DB3;              header text */
+  --txt-header-hgl:      #FDF8ED;  /* #FDEDF1;              selected header dropdown toggle and link items */
+  --txt-header-hgl-h1:   linear-gradient(135deg, #FDF8ED, #FFE7B3, #AB996F);   /*  linear-gradient(135deg, #FDEDF1, #FFB3D8, #AB6F7D);  gradient for selected AO3 header title */
+  --txt-main:            #D3CFC5;  /* #D3C5C8;               main body text */
+  --txt-alt1:            #D3CFC5;  /* #D3C5C8;               announcements */
   --txt-alt2:            #111111;                  /* checkbox checkmark, help symbol, event announcements etc. */
 
   /* links */
-  --link:                #F59DB3;                  /* link color */
-  --link-hgl:            #C93B6A;                  /* color for hovered/focused links */
+  --link:                #D99E73;  /* #F59DB3;               link color */
+  --link-hgl:            #CC5E41;  /* #C93B6A;               color for hovered/focused links */
   --link-visited:        #7D7272;                  /* color for already visited links + header search bar icon */
   --link-underline:      1px solid transparent;    /* link underline => delete "transparent" to make link underlines visible */
 

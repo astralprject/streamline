@@ -1,13 +1,17 @@
 .site-skin-metadata {
   content: "==================================================
 
-  - Skin:        streamline - chocolate orange theme  (BASED ON themes by ZerafinaCSS)
-  - Author:        ZerafinaCSS  (EDITED by whomst_are_youmst)
+  - Skin:        streamline - chocolate orange theme  [BASED ON neos themes by ZerafinaCSS]
+  - Author:        ZerafinaCSS  [EDITED by whomst_are_youmst]
   - Instructions:        https://ao3.org/works/65849527
-  - Repository:        CHANGE
-  - Updated:        2026-Mar-19 13:22
+  - Repository:        https://github.com/astralprject/streamline
+  - Updated:        2026-Mar-19 19:02
+
   - Links:        ZerafinaCSS - tumblr [https://tumblr.com/zerafinacss]
                               - github [https://github.com/ZerafinaCSS/neos]
+
+                  Colors - hex-code picker [https://htmlcolorcodes.com/color-picker/]
+                         - CSS color filter [https://angel-rs.github.io/css-color-filter-generator/]
 
   ==========================================================";
 }
@@ -16,62 +20,65 @@
 ==============================================================
 GLOBAL VARIABLES
 ==============================================================
+Color palettes:
+    Chocolate (main text, backgrounds) - [https://coolors.co/user/palettes/69bc3c5790048a000feb8a9e]
+    Orange (tags, links, header icons) - [https://coolors.co/user/palettes/69bc3bf690048a000fe92e38]
 
 */
 
 :root {
 
-  color-scheme:          dark;                     /* which system color scheme an (unstyleable) element should render with */
+  color-scheme:          dark;                   /* which system color scheme an (unstyleable) element should render with */
 
 
 /*>========== UI PARAMETERS ==========<*/
 
   /* space on left/right side of screen */
-  --margins-header:      1rem;                     /* header on desktop */
-  --margins-main:        5%;                       /* site contents on desktop */
-  --margins-narrow:      5%;                       /* site contents and header on tablet/mobile */
+  --margins-header:      1rem;                   /* header on desktop */
+  --margins-main:        5%;                     /* site contents on desktop */
+  --margins-narrow:      5%;                     /* site contents & header on tablet/mobile */
 
   /* border-radius (= roundness of corners) */
-  --radius-small:        4px;                      /* smaller elements: list elements, input elements etc. */
-  --radius-mid:          6px;                      /* midsizde elements: dropdown menus, system messages etc. */
-  --radius-big:          8px;                      /* bigger elements: blurbs, forms, comments, textareas etc. */
-  --radius-btn:          14px;                     /* header search box, buttons */
-  --radius-tag:          8px;                      /* tags */
+  --radius-small:        4px;                    /* smaller elements: list elements, input elements etc. */
+  --radius-mid:          6px;                    /* midsized elements: dropdown menus, system messages etc. */
+  --radius-big:          8px;                    /* bigger elements: blurbs, forms, comments, textareas etc. */
+  --radius-btn:          14px;                   /* header search box, buttons */
+  --radius-tag:          8px;                    /* tags */
 
   /* icon border-radius */
-  --icon-content-radius: 6px;                      /* content and bookmark icon */
-  --icon-primary-radius: 8px;                      /* primary and comment icon */
-  --icon-index-radius:   8px;                      /* index icon */
+  --icon-content-radius: 6px;                    /* content and bookmark icon */
+  --icon-primary-radius: 8px;                    /* primary and comment icon */
+  --icon-index-radius:   8px;                    /* index icon */
 
 
 /*>========== MAIN BACKGROUND COLORS ==========<*/
 
-  --bg1:                 #1C1918;  /* #1D1D1D;          main background, footer etc. */
+  --bg1:                 #1C1918;                /* main background, footer etc. */
   --bg2:                 #2B2625;                /* header */
   --bg3:                 transparent;            /* dashboard */
   --bg4:                 #2B2625;                /* forms, modal dialogs, javascript context etc. */
   --bg5:                 #2B2625;                /* content boxes (blurbs, comments etc.), meta box */
   --bg6:                 #2B2625;                /* dropdown and secondary menus, tooltips etc. */
-  --bg7:                 #2B2625;  /* #423833;              own blurbs, listbox, some even/odd list items etc. */
+  --bg7:                 #2B2625;                /* own blurbs, listbox, some even/odd list items etc. */
   --bg8:                 #F5C59D;                /* collection header */
 
 
 /*>========== MAIN BORDERS ==========<*/
 
   /* colors */
-  --border1:             #423833;  /* #423D3A;              dashboard, footer, news, blockquote, scrollbar track etc. */
-  --border2:             #423833;                    /* header, tables, forms, input elements, listbox etc. */
-  --border3:             #423833;                    /* content boxes (blurbs, comments etc.), dropdown and secondary menus */
-  --border4:             #1C1918;  /* #26211F;              meta boxes, tooltips, some heading underlines, scrollbar thumb etc. */
+  --border1:             #423833;                /* dashboard, footer, news, blockquote, scrollbar track etc. */
+  --border2:             #423833;                /* header, tables, forms, input elements, listbox etc. */
+  --border3:             #423833;                /* content boxes (blurbs, comments etc.), dropdown and secondary menus */
+  --border4:             #423833;                /* scrollbar thumb, meta boxes, tooltips, some heading underlines etc. */
 
   /* width */
-  --border-width:        1.5px;                      /* for almost all borders (experimental - changing this might cause some weirdness) */
+  --border-width:        1.5px;                /* for almost all borders (experimental - changing this might cause some weirdness) */
 
 
 /*>========== SHADOWS ==========<*/
 /* replace values with "none" (without quotation marks) to remove shadows */
 
-  --shadow:              none;                       /* secondary elements, dropdowns, tooltips etc. */
+  --shadow:              none;             /* secondary elements, dropdowns, tooltips etc. */
   --shadow-header:       none;
   --shadow-buttons:      none;
 
@@ -79,19 +86,18 @@ GLOBAL VARIABLES
 /*>========== MAIN TEXT ==========<*/
 
   /* text size */
-  --txt-size-main:       105%;                       /* main text size (bigger than 130% causes some issues, but is still mostly functional) */
-  --txt-size-work:       105%;                       /* work text size */
+  --txt-size-main:       105%;             /* main text size (bigger than 130% causes some issues, but is still mostly functional) */
+  --txt-size-work:       105%;             /* work text size */
 
   /* text colors */
-  --txt-header:          #f79d65;                    /* header text */
-  --txt-header-hgl:      #FFC88A;                    /* selected header dropdown toggle and link items */
-  --txt-header-hgl-h1:   #FFC88A;                    /* gradient for selected AO3 header title */
-  --txt-main:            #DBC3A9;                    /* main body text */
-  --txt-alt1:            #DBC3A9;                    /* announcements */
-  --txt-alt2:            #1C1918;                    /* checkbox checkmark, help symbol, event announcements etc. */
+  --txt-header:          #F79D65;               /* header text */
+  --txt-header-hgl:      #FFC88A;               /* selected header dropdown toggle and link items */
+  --txt-main:            #DBC3A9;               /* main body text */
+  --txt-alt1:            #DBC3A9;               /* announcements */
+  --txt-alt2:            #1C1918;               /* checkbox checkmark, help symbol, event announcements etc. */
 
   /* links */
-  --link:                #f79d65;                    /* link color */
+  --link:                #F79D65;                    /* link color */
   --link-hgl:            #E56250;                    /* color for hovered/focused links */
   --link-visited:        #806C63;                    /* color for already visited links + header search bar icon */
   --link-underline:      1px solid transparent;      /* link underline => delete "transparent" to make link underlines visible */
@@ -101,49 +107,49 @@ GLOBAL VARIABLES
 /* = buttons, input and select elements */
 
   /* button colors */
-  --int-btn-bg:          #2B2625;                    /* background */
-  --int-btn-border:      #423833;                    /* border */
-  --int-btn-txt:         #f79d65;                    /* text */
-  --int-btn-hgl-bg:      #FFC88A;                    /* background for hovered/focused buttons */
-  --int-btn-hgl-txt:     #171717;                    /* text for hovered/focused buttons */                                                                        
+  --int-btn-bg:          #2B2625;                  /* background */
+  --int-btn-border:      #423833;                  /* border */
+  --int-btn-txt:         #F79D65;                  /* text */
+  --int-btn-hgl-bg:      #FFC88A;                  /* background for hovered/focused buttons */
+  --int-btn-hgl-txt:     #171717;                  /* text for hovered/focused buttons */                                                                        
   
-  --int-bg:              #11111159;                  /* background for input and select elements */
+  --int-bg:            #11111159;                  /* background for input and select elements */
 
-  --int-current-bg:      #f79d65;                    /* background for currently active elements */
-  --int-current-txt:     #171717;                    /* text for currently active elements */
-  --int-disabled-bg:     #2E2A28;                    /* background for disabled buttons and checkboxes */
-  --int-checked:         #E56250;                    /* checked checkboxes and radio buttons */
+  --int-current-bg:      #F79D65;                  /* background for currently active elements */
+  --int-current-txt:     #171717;                  /* text for currently active elements */
+  --int-disabled-bg:     #2E2A28;                  /* background for disabled buttons and checkboxes */
+  --int-checked:         #E56250;                  /* checked checkboxes and radio buttons */
   
-  --int-hgl:             #f79d65;                    /* highlight for hovered/focused/selected elements (text, filter-tickboxes) */
-  --int-hgl-bg:          #FFC88A;   /* #E56250;                   background for hovered/focused list items */
-  --int-hgl-txt:         #171717;                    /* text for hovered/focused list items and for collection header */
+  --int-hgl:             #F79D65;                  /* highlight for hovered/focused/selected elements (text, filter-tickboxes) */
+  --int-hgl-bg:          #FFC88A;                  /* background for hovered/focused list items */
+  --int-hgl-txt:         #171717;                  /* text for hovered/focused list items and for collection header */
 
 
 /*>========== ICON COLORS ==========<*/
 
   /* bookmark and content icons (mostly) */ 
-  --icon1:               #49855C;  /* #508A64;             gen, complete, public bookmark */
-  --icon2:               #D9B552;  /* #E8CB6B;             teen */
-  --icon3:               #42689E;  /* #3C70BA;             m/m, external work */
-  --icon4:               #D9804A;  /* #F2965C;             mature, chose not to warn, rss feed */
-  --icon5:               #7A2B73;  /* #A12D8D;             f/m */
-  --icon6:               #B03145;  /* #C93B50;             explicit, f/f, warning, incomplete */
-  --icon7:               #0A0807;                    /* private bookmark */
-  --icon8:               #6B85B0;                    /* hidden bookmark */
-  --icon9:               #C94D68;  /* #D95979;             rec bookmark */
+  --icon1:               #49855C;              /* gen, complete, public bookmark */
+  --icon2:               #D9B552;              /* teen */
+  --icon3:               #42689E;              /* m/m, external work */
+  --icon4:               #D9804A;              /* mature, chose not to warn, rss feed */
+  --icon5:               #7A2B73;              /* f/m */
+  --icon6:               #B03145;              /* explicit, f/f, warning, incomplete */
+  --icon7:               #0A0807;              /* private bookmark */
+  --icon8:               #6B85B0;              /* hidden bookmark */
+  --icon9:               #C94D68;              /* rec bookmark */
 
   /* gradient overlay for the bookmark and content icons above */
   --icon-grd:            none;
 
   /* other icons */
   --icon-bg:             #1C1918;                                    /* background for empty icon box or uploaded icon with transparent background */
-  --icon-id:             linear-gradient(120deg, #E56250, #f79d65, #434343);  /* user, skin, tag, admin */
+  --icon-id:             linear-gradient(120deg, #E56250, #F79D65, #434343);  /* user, skin, tag, admin */
   --icon-anon:           #1C1918;                                    /* guest, anonymous user */
-  --icon-coll:           linear-gradient(120deg, #E56250, #f79d65, #434343);  /* collection, unrevealed work */
+  --icon-coll:           linear-gradient(120deg, #E56250, #F79D65, #434343);  /* collection, unrevealed work */
 
   /* icon borders */
-  --icon-border1:        none;                /* border for most icons */
-  --icon-border2:        none;                /* uploaded, default user and mystery icon + empty symbols box */
+  --icon-border1:        none;              /* border for most icons */
+  --icon-border2:        none;              /* uploaded, default user and mystery icon + empty symbols box */
 
 
 /*>========== TAG COLORS ==========<*/
@@ -151,11 +157,11 @@ GLOBAL VARIABLES
   /* background */
   --tag-default-bg:      #1C1918;
   --tag-fandom-bg:       #1C1918;
-  --tag-warning-bg:      #E56250;
-  --tag-ship-bg:         #F2965C;
-  --tag-platonic-bg:     #EBAD6E;  /* #F5B97D; */
-  --tag-character-bg:    #1C1918; 
-  --tag-freeform-bg:     #1C1918; 
+  --tag-warning-bg:      #E56250;   /* dark */
+  --tag-ship-bg:         #F2965C;   /* medium */
+  --tag-platonic-bg:     #EBAD6E;   /* light */
+  --tag-character-bg:    #1C1918;
+  --tag-freeform-bg:     #1C1918;
 
   /* text */
   --tag-default-txt:     #DBC3A9;
@@ -163,13 +169,12 @@ GLOBAL VARIABLES
   --tag-warning-txt:     #171717;
   --tag-ship-txt:        #171717;
   --tag-platonic-txt:    #171717;
-  --tag-character-txt:   #f79d65;   /* darker */
-  --tag-freeform-txt:    #F5B97D;   /* lighter */
+  --tag-character-txt:   #F79D65;   /* dark */
+  --tag-freeform-txt:    #F5B97D;   /* light */
 
   /* border */
   --tag-border:          transparent;
 
-  
   /* hover and focus */
   --tag-hgl-bg:          #FFC88A;           /* background */
   --tag-hgl-txt:         #171717;           /* text */
@@ -179,22 +184,22 @@ GLOBAL VARIABLES
 
   /* background */
   --notice-bg:           #1A2230;
-  --success-bg:          #171221;
-  --caution-bg:          #1C1813;
+  --caution-bg:          #191221;
+  --success-bg:          #122110;
   --alert-bg:            #260505;
 
   /* text & borders */
   --notice-txt:          #86A2D5;     /* blue */
-  --success-txt:         #8F6CCB;     /* purple */
-  --caution-txt:         #BF9867;     /* orange */
-  --alert-txt:           #37B041;  /* #B03737;  red */
+  --caution-txt:         #957BC7;     /* purple */
+  --success-txt:         #60AD58;     /* green*/
+  --alert-txt:           #B03737;     /* red */
 
 
 
 /*>========== FILTERS ==========<*/
 /* the colors of the following elements can only be changed using filters; adjust filter values to change colors */
 
-/* #f79d65 */  --header-icon:         brightness(0) saturate(100%) invert(61%) sepia(67%) saturate(354%) hue-rotate(338deg) brightness(98%) contrast(98%);
+/* #F79D65 */  --header-icon:         brightness(0) saturate(100%) invert(61%) sepia(67%) saturate(354%) hue-rotate(338deg) brightness(98%) contrast(98%);
 /* #FFC88A */  --header-icon-hgl:     brightness(0) saturate(100%) invert(96%) sepia(65%) saturate(3439%) hue-rotate(300deg) brightness(103%) contrast(118%);
 /* #FFC88A */  --kudos-icon:          brightness(0) saturate(100%) invert(93%) sepia(72%) saturate(4727%) hue-rotate(302deg) brightness(107%) contrast(102%);
 /* #DBC3A9 */  --lock-icon:           brightness(0) saturate(100%) invert(86%) sepia(21%) saturate(336%) hue-rotate(348deg) brightness(91%) contrast(87%);

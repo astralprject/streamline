@@ -13,7 +13,7 @@
   - Author:        ZerafinaCSS   (EDITED by whomst_are_youmst: Logo)
   - Instructions:        https://ao3.org/works/65849527
   - Repository:        CHANGE
-  - Updated:        2026-Mar-19 14:21
+  - Updated:        2026-Mar-19 14:51
   - Links:        ZerafinaCSS - tumblr [https://tumblr.com/zerafinacss]
                               - github [https://github.com/ZerafinaCSS/neos]
 
@@ -351,8 +351,14 @@ col.name {
 }
 
 /* hide original "AO3 beta" title & logo */
-#header .heading a * {
+/* #header .heading a * {
   display: none;
+  content: url("/images/archive-of-our-own-f79d65.png"); */ /* URL can be replaced with appropriate image */
+/* } */
+
+/* replace the AO3 logo with high-res/new image */
+#header .logo {
+  content: url("https://github.com/astralprject/streamline/blob/734f3c7c412c2ad6146248e0adaf9521316d6f44/images/archive-of-our-own-f79d65.png");    /* URL can be replaced with appropriate image */
 }
 
 /*>========== header dropdown menus ==========<*/
@@ -4183,6 +4189,16 @@ dl.stats dd {
 /*============================================================
 >> Z3 MISCELLANEOUS
 ============================================================*/
+
+/* hide "Clear Entire History" button */
+li:has(a[href$="/readings/confirm_clear"]) {
+  display: none;
+}
+
+/* hide "RSS Feed" button */
+li:has(a.rss) {
+  display: none;
+}
 
 /* scrollbar */
 * {

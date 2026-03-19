@@ -1,12 +1,12 @@
 .site-skin-metadata {
   content: "==================================================
 
-  - Skin:         neos/theme_charcoal-rose
-  - Author:       ZerafinaCSS [https://tumblr.com/zerafinacss]
-  - Instructions: https://ao3.org/works/65849527
-  - Repository:   https://github.com/ZerafinaCSS/neos
-  - License:      MIT
-  - Last Edited:      2026-Mar-18 12:15
+  - Skin:          neos/theme_charcoal-rose
+  - Author:         ZerafinaCSS [https://tumblr.com/zerafinacss]
+  - Instructions:     https://ao3.org/works/65849527
+  - Repository:      https://github.com/ZerafinaCSS/neos
+  - License:        MIT
+  - Last Edited:     2026-Mar-19 11:39
 
   ==========================================================";
 }
@@ -18,7 +18,6 @@ GLOBAL VARIABLES
 Color palettes used:
 
 Charcoal: https://coolors.co/111111-1d1d1d-242424-2b2b2b-323232-434343-545454-6f6567-89767a-d3c5c8
-Rose:     https://coolors.co/ab6f7d-c93b6a-d83f6c-d96aa9-e077ac-f59db3-ffabdf-ffb3d8
   
 */
 
@@ -49,23 +48,23 @@ Rose:     https://coolors.co/ab6f7d-c93b6a-d83f6c-d96aa9-e077ac-f59db3-ffabdf-ff
 
 /*>========== MAIN BACKGROUND COLORS ==========<*/
 
-  --bg1:                 #1D1D1D;                  /* main background, footer etc. */
-  --bg2:                 #2B2B2B;                  /* header */
-  --bg3:                 transparent;              /* dashboard */
-  --bg4:                 #2B2B2B;                  /* forms, modal dialogs, javascript context etc. */
-  --bg5:                 #2B2B2B;                  /* content boxes (blurbs, comments etc.), meta box */
-  --bg6:                 #2B2B2B;                  /* dropdown and secondary menus, tooltips etc. */
-  --bg7:                 #323232;                  /* own blurbs, listbox, some even/odd list items etc. */
-  --bg8:                 #F59DB3;                  /* collection header */
+  --bg1:                 #1C1918;  /* #1D1D1D;          main background, footer etc. */
+  --bg2:                 #2B2625;                /* header */
+  --bg3:                 transparent;            /* dashboard */
+  --bg4:                 #2B2625;                /* forms, modal dialogs, javascript context etc. */
+  --bg5:                 #2B2625;                /* content boxes (blurbs, comments etc.), meta box */
+  --bg6:                 #2B2625;                /* dropdown and secondary menus, tooltips etc. */
+  --bg7:                 #2B2625;  /* #423833;              own blurbs, listbox, some even/odd list items etc. */
+  --bg8:                 #F5C59D;                /* collection header */
 
 
 /*>========== MAIN BORDERS ==========<*/
 
   /* colors */
-  --border1:             #434343;                  /* dashboard, footer, news, blockquote, scrollbar track etc. */
-  --border2:             #434343;                  /* header, tables, forms, input elements, listbox etc. */
-  --border3:             #434343;                  /* content boxes (blurbs, comments etc.), dropdown and secondary menus */
-  --border4:             #6F6B65;                  /* meta boxes, tooltips, some heading underlines, scrollbar thumb etc. */
+  --border1:             #423833;  /* #423D3A;              dashboard, footer, news, blockquote, scrollbar track etc. */
+  --border2:             #423833;                    /* header, tables, forms, input elements, listbox etc. */
+  --border3:             #423833;                    /* content boxes (blurbs, comments etc.), dropdown and secondary menus */
+  --border4:             #1C1918;  /* #26211F;              meta boxes, tooltips, some heading underlines, scrollbar thumb etc. */
 
   /* width */
   --border-width:        1.5px;                      /* for almost all borders (experimental - changing this might cause some weirdness) */
@@ -74,7 +73,7 @@ Rose:     https://coolors.co/ab6f7d-c93b6a-d83f6c-d96aa9-e077ac-f59db3-ffabdf-ff
 /*>========== SHADOWS ==========<*/
 /* replace values with "none" (without quotation marks) to remove shadows */
 
-  --shadow:              none;                     /* secondary elements, dropdowns, tooltips etc. */
+  --shadow:              none;                       /* secondary elements, dropdowns, tooltips etc. */
   --shadow-header:       none;
   --shadow-buttons:      none;
 
@@ -82,132 +81,128 @@ Rose:     https://coolors.co/ab6f7d-c93b6a-d83f6c-d96aa9-e077ac-f59db3-ffabdf-ff
 /*>========== MAIN TEXT ==========<*/
 
   /* text size */
-  --txt-size-main:       105%;                     /* main text size (bigger than 130% causes some issues, but is still mostly functional) */
-  --txt-size-work:       105%;                     /* work text size */
+  --txt-size-main:       105%;                       /* main text size (bigger than 130% causes some issues, but is still mostly functional) */
+  --txt-size-work:       105%;                       /* work text size */
 
   /* text colors */
-  --txt-header:          #f79d65;                  /* header text */
-  --txt-header-hgl:      #FDF8ED;                  /* selected header dropdown toggle and link items */
-  --txt-header-hgl-h1:   linear-gradient(135deg, #FDF8ED, #FFDA8A, #f79d65);   /*  linear-gradient(135deg, #FDEDF1, #FFB3D8, #AB6F7D);  gradient for selected AO3 header title */
-  --txt-main:            #D3CFC5;                  /* main body text */
-  --txt-alt1:            #D3CFC5;                  /* announcements */
-  --txt-alt2:            #111111;                  /* checkbox checkmark, help symbol, event announcements etc. */
+  --txt-header:          #f79d65;                    /* header text */
+  --txt-header-hgl:      #FFC88A;                    /* selected header dropdown toggle and link items */
+  --txt-header-hgl-h1:   linear-gradient(135deg, #FDF8ED, #FFC88A, #f79d65);   /*    gradient for selected AO3 header title */
+  --txt-main:            #DBC3A9;                    /* main body text */
+  --txt-alt1:            #DBC3A9;                    /* announcements */
+  --txt-alt2:            #1C1918;                    /* checkbox checkmark, help symbol, event announcements etc. */
 
   /* links */
-  --link:                #f79d65;                  /* link color */
-  --link-hgl:            #f25c54;                  /* color for hovered/focused links */
-  --link-visited:        #7D7272;                  /* color for already visited links + header search bar icon */
-  --link-underline:      1px solid transparent;    /* link underline => delete "transparent" to make link underlines visible */
+  --link:                #f79d65;                    /* link color */
+  --link-hgl:            #E56250;                    /* color for hovered/focused links */
+  --link-visited:        #806C63;                    /* color for already visited links + header search bar icon */
+  --link-underline:      1px solid transparent;      /* link underline => delete "transparent" to make link underlines visible */
 
 
 /*>========== INTERACTION COLORS ==========<*/
 /* = buttons, input and select elements */
 
   /* button colors */
-  --int-btn-bg:          #2B2B2B;                  /* background */
-  --int-btn-border:      #785749;                  /* border */
-  --int-btn-txt:         #f79d65;                  /* text */
-  --int-btn-hgl-bg:      linear-gradient(135deg, #FFE8B8, #FFDA8A, #f79d65);     /* background for hovered/focused buttons */
-  --int-btn-hgl-txt:     #111111;                  /* text for hovered/focused buttons */                                                                        
+  --int-btn-bg:          #2B2625;                    /* background */
+  --int-btn-border:      #423833;                    /* border */
+  --int-btn-txt:         #f79d65;                    /* text */
+  --int-btn-hgl-bg:      #FFC88A;                    /* background for hovered/focused buttons */
+  --int-btn-hgl-txt:     #171717;                    /* text for hovered/focused buttons */                                                                        
   
-  --int-bg:              #11111159;                /* background for input and select elements */
+  --int-bg:              #11111159;                  /* background for input and select elements */
 
-  --int-current-bg:      #323232;                  /* background for currently active elements */
-  --int-current-txt:     #D3CFC5;                  /* text for currently active elements */
-  --int-disabled-bg:     #2B2B2B;                  /* background for disabled buttons and checkboxes */
-  --int-checked:         #f79d65;                  /* checked checkboxes and radio buttons */
+  --int-current-bg:      #f79d65;                    /* background for currently active elements */
+  --int-current-txt:     #171717;                    /* text for currently active elements */
+  --int-disabled-bg:     #2E2A28;                    /* background for disabled buttons and checkboxes */
+  --int-checked:         #E56250;                    /* checked checkboxes and radio buttons */
   
-  --int-hgl:             #FFDA8A;                  /* highlight for hovered/focused/selected elements */
-  --int-hgl-bg:          linear-gradient(135deg, #FFE8B8, #FFDA8A, #f79d65); /* background for hovered/focused list items */
-  --int-hgl-txt:         #111111;                  /* text for hovered/focused list items and for collection header */
+  --int-hgl:             #f79d65;                    /* highlight for hovered/focused/selected elements (text, filter-tickboxes) */
+  --int-hgl-bg:          #FFC88A;   /* #E56250;                   background for hovered/focused list items */
+  --int-hgl-txt:         #171717;                    /* text for hovered/focused list items and for collection header */
 
 
 /*>========== ICON COLORS ==========<*/
 
-  /* bookmark and content icons (mostly) */
-/* CHANGED */  
-  --icon1:               #57AB75;  /* #46B97C;            gen, complete, public bookmark */
-  --icon2:               #E3CE6B;  /* #F2D852;            teen */
-  --icon3:               #3C70BA;                  /* m/m, external work */
-  --icon4:               #F08C54;                  /* mature, chose not to warn, rss feed */
-  --icon5:               #B02C9A;                  /* f/m */
-  --icon6:               #C93B6A;                  /* explicit, f/f, warning, incomplete */
-  --icon7:               #AB6F7D;                  /* private bookmark */
-  --icon8:               #7A685F;  /* #89767A;             hidden bookmark */
-  --icon9:               #F9678C;                  /* rec bookmark */
+  /* bookmark and content icons (mostly) */ 
+  --icon1:               #49855C;  /* #508A64;             gen, complete, public bookmark */
+  --icon2:               #D9B552;  /* #E8CB6B;             teen */
+  --icon3:               #42689E;  /* #3C70BA;             m/m, external work */
+  --icon4:               #D9804A;  /* #F2965C;             mature, chose not to warn, rss feed */
+  --icon5:               #7A2B73;  /* #A12D8D;             f/m */
+  --icon6:               #B03145;  /* #C93B50;             explicit, f/f, warning, incomplete */
+  --icon7:               #0A0807;                    /* private bookmark */
+  --icon8:               #6B85B0;                    /* hidden bookmark */
+  --icon9:               #C94D68;  /* #D95979;             rec bookmark */
 
   /* gradient overlay for the bookmark and content icons above */
   --icon-grd:            none;
 
   /* other icons */
-  --icon-bg:             #1D1D1D;                                    /* background for empty icon box or uploaded icon with transparent background */
-  --icon-id:             linear-gradient(135deg, #f79d65, #434343);  /* user, skin, tag, admin */
-  --icon-anon:           #1D1D1D;                                    /* guest, anonymous user */
-  --icon-coll:           linear-gradient(135deg, #f79d65, #434343);  /* collection, unrevealed work */
+  --icon-bg:             #1C1918;                                    /* background for empty icon box or uploaded icon with transparent background */
+  --icon-id:             linear-gradient(120deg, #E56250, #f79d65, #434343);  /* user, skin, tag, admin */
+  --icon-anon:           #1C1918;                                    /* guest, anonymous user */
+  --icon-coll:           linear-gradient(120deg, #E56250, #f79d65, #434343);  /* collection, unrevealed work */
 
   /* icon borders */
-  --icon-border1:        none;                     /* border for most icons */
-  --icon-border2:        none;                     /* uploaded, default user and mystery icon + empty symbols box */
+  --icon-border1:        none;                /* border for most icons */
+  --icon-border2:        none;                /* uploaded, default user and mystery icon + empty symbols box */
 
 
 /*>========== TAG COLORS ==========<*/
 
   /* background */
-  --tag-default-bg:      #171717;
-  --tag-fandom-bg:       #171717;
+  --tag-default-bg:      #1C1918;
+  --tag-fandom-bg:       #1C1918;
   --tag-warning-bg:      #E56250;
   --tag-ship-bg:         #F2965C;
-  --tag-platonic-bg:     #FCC186;
-  --tag-character-bg:    #171717; 
-  --tag-freeform-bg:     #171717; 
+  --tag-platonic-bg:     #EBAD6E;  /* #F5B97D; */
+  --tag-character-bg:    #1C1918; 
+  --tag-freeform-bg:     #1C1918; 
 
   /* text */
-  --tag-default-txt:     #D3CFC5;
-  --tag-fandom-txt:      #D3CFC5;
+  --tag-default-txt:     #DBC3A9;
+  --tag-fandom-txt:      #DBC3A9;
   --tag-warning-txt:     #171717;
   --tag-ship-txt:        #171717;
   --tag-platonic-txt:    #171717;
   --tag-character-txt:   #f79d65;   /* darker */
-  --tag-freeform-txt:    #FFC894;   /* #FFDA8A;  lighter */
+  --tag-freeform-txt:    #F5B97D;   /* lighter */
 
   /* border */
   --tag-border:          transparent;
 
   
   /* hover and focus */
-  --tag-hgl-bg:          linear-gradient(135deg, #FFE8B8, #FFDA8A, #f79d65); /* background */
-  --tag-hgl-txt:         #171717;                  /* text */
+  --tag-hgl-bg:          #FFC88A;           /* background */
+  --tag-hgl-txt:         #171717;           /* text */
 
 
 /*>========== COLORS FOR ROLES AND STATES + SYSTEM MESSAGES ==========<*/
-/* palette: https://coolors.co/24051a-bb589d-171221-bf9867-1c1813-8f6ccb-24050d-e6436e */
-
-
-/* CHANGE THESE COLOURS*/
 
   /* background */
-  --notice-bg:           #24051A; 
+  --notice-bg:           #1A2230;
   --success-bg:          #171221;
   --caution-bg:          #1C1813;
-  --alert-bg:            #24050D;
+  --alert-bg:            #260505;
 
-  /* text (and borders) */
-  --notice-txt:          #BB589D; 
-  --success-txt:         #8F6CCB;
-  --caution-txt:         #BF9867;
-  --alert-txt:           #E6436E;
+  /* text & borders */
+  --notice-txt:          #86A2D5;     /* blue */
+  --success-txt:         #8F6CCB;     /* purple */
+  --caution-txt:         #BF9867;     /* orange */
+  --alert-txt:           #37B041;  /* #B03737;  red */
+
 
 
 /*>========== FILTERS ==========<*/
 /* the colors of the following elements can only be changed using filters; adjust filter values to change colors */
 
-  --header-icon:         brightness(0) saturate(100%) invert(70%) sepia(24%) saturate(723%) hue-rotate(299deg) brightness(99%) contrast(94%);
-  --header-icon-hgl:     brightness(0) saturate(100%) invert(90%) sepia(9%) saturate(185%) hue-rotate(295deg) brightness(101%) contrast(104%); /* hover/focus */
-  --kudos-icon:          brightness(0) saturate(100%) invert(52%) sepia(26%) saturate(736%) hue-rotate(287deg) brightness(102%) contrast(93%);
-  --lock-icon:           brightness(0) saturate(100%) invert(87%) sepia(12%) saturate(152%) hue-rotate(297deg) brightness(90%) contrast(95%);
-  --stats-icon:          brightness(0) saturate(100%) invert(30%) sepia(7%) saturate(313%) hue-rotate(314deg) brightness(101%) contrast(89%);
-  --stat-chart:          invert(100%) hue-rotate(150deg) brightness(85%) contrast(77%);
-  --rich-txt-editor:     invert(95%) saturate(0);
+/* #f79d65 */  --header-icon:         brightness(0) saturate(100%) invert(61%) sepia(67%) saturate(354%) hue-rotate(338deg) brightness(98%) contrast(98%);
+/* #FFC88A */  --header-icon-hgl:     brightness(0) saturate(100%) invert(96%) sepia(65%) saturate(3439%) hue-rotate(300deg) brightness(103%) contrast(118%);
+/* #FFC88A */  --kudos-icon:          brightness(0) saturate(100%) invert(93%) sepia(72%) saturate(4727%) hue-rotate(302deg) brightness(107%) contrast(102%);
+/* #DBC3A9 */  --lock-icon:           brightness(0) saturate(100%) invert(86%) sepia(21%) saturate(336%) hue-rotate(348deg) brightness(91%) contrast(87%);
+/* #806C63 */  --stats-icon:          brightness(0) saturate(100%) invert(45%) sepia(5%) saturate(1477%) hue-rotate(333deg) brightness(93%) contrast(85%);
+            --stat-chart:          invert(100%) hue-rotate(150deg) brightness(85%) contrast(77%);
+            --rich-txt-editor:     invert(95%) saturate(0);
 
 }
 

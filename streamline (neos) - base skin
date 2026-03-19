@@ -9,12 +9,12 @@
 .site-skin-metadata {
   content: "==================================================
 
-  - Skin:         neos/base
-  - Author:        ZerafinaCSS [https://tumblr.com/zerafinacss]
+  - Skin:         neos/base  (edited by whomst_are_youmst)
+  - Author:        ZerafinaCSS   [https://tumblr.com/zerafinacss]
   - Instructions:    https://ao3.org/works/65849527
   - Repository:     https://github.com/ZerafinaCSS/neos
   - License:       MIT
-  - Updated:       2026-Mar-19 11:46
+  - Updated:       2026-Mar-19 13:16
 
   ==========================================================";
 }

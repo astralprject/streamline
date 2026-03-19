@@ -1,11 +1,10 @@
 .site-skin-metadata {
   content: "==================================================
 
-  - Skin:          neos/theme_charcoal-rose
-  - Author:         ZerafinaCSS [https://tumblr.com/zerafinacss]
-  - Instructions:     https://ao3.org/works/65849527
-  - Repository:      https://github.com/ZerafinaCSS/neos
-  - License:        MIT
+  - Skin:          streamline - chocolate orange theme  (inspired by "neos - charcoal-rose theme" by ZerafinaCSS [https://tumblr.com/zerafinacss])
+  - Author:         whomst_are_youmst
+  - Instructions:     https://ao3.org/works/65849527  ("neos" by ZerafinaCSS)
+  - Repository:      CHANGE https://github.com/ZerafinaCSS/neos
   - Last Edited:     2026-Mar-19 11:39
 
   ==========================================================";
@@ -83,7 +82,7 @@ GLOBAL VARIABLES
   /* text colors */
   --txt-header:          #f79d65;                    /* header text */
   --txt-header-hgl:      #FFC88A;                    /* selected header dropdown toggle and link items */
-  --txt-header-hgl-h1:   linear-gradient(135deg, #FDF8ED, #FFC88A, #f79d65);   /*    gradient for selected AO3 header title */
+  --txt-header-hgl-h1:   #FFC88A;                    /* gradient for selected AO3 header title */
   --txt-main:            #DBC3A9;                    /* main body text */
   --txt-alt1:            #DBC3A9;                    /* announcements */
   --txt-alt2:            #1C1918;                    /* checkbox checkmark, help symbol, event announcements etc. */

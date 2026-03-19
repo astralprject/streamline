@@ -13,9 +13,11 @@
   - Author:        ZerafinaCSS   (EDITED by whomst_are_youmst: Logo)
   - Instructions:        https://ao3.org/works/65849527
   - Repository:        https://github.com/astralprject/streamline
-  - Updated:        2026-Mar-19 16:42
+  - Updated:        2026-Mar-19 17:34
   - Links:        ZerafinaCSS - tumblr [https://tumblr.com/zerafinacss]
                               - github [https://github.com/ZerafinaCSS/neos]
+                  AO3 logo edits - AO3 logo (free color picking & image download) [https://www.svgrepo.com/svg/341616/archive-of-our-own]
+                                 - image hosting platform (for URL) [https://postimages.org/]
 
   ==========================================================";
 }
@@ -331,31 +333,17 @@ col.name {
 
 /* replaced AO3 logo */
 #header .heading a {
-  content: url("https://i.postimg.cc/2yJprgDs/archive-of-our-own-f79d65.png");
+  content: url("https://i.postimg.cc/2yJprgDs/archive-of-our-own-f79d65.png");    /* URL can be replaced with another image */
   width: 35px;
   height: 35px;
 }
 
-/* new AO3 title/heading - PART OF ZERAFINA'S ORIGINAL CODE */
-  /* doesn't appear but I couldn't remove it*/
-#header .heading a::after {
-  font-weight: 700;               /* make title bold */
-  font-size: 1.15em;
-  color: var(--txt-header);       /* title/heading color */
-  content: "Archive logo text";             
-}
-
-/* hovered and focused title */
-#header .heading a:is(:hover, :focus)::after {
-  -webkit-background-clip: text;
-  background-image: var(--txt-header-hgl-h1);
-  color: transparent;
-}
-
-  /* hide original "AO3 beta" title & logo */
-/* #header .heading a * {
+/* hide original "AO3 beta" title & logo */
+/*
+#header .heading a * {
   display: none;
-} */
+}
+*/
 
 /*>========== header dropdown menus ==========<*/
 

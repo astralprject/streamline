@@ -91,14 +91,14 @@ Color palettes:
 
   /* text colors */
   --txt-header:          #A374E3;               /* header text */
-  --txt-header-hgl:      #FFC88A;               /* selected header dropdown toggle and link items */
+  --txt-header-hgl:      #D7C4F3;               /* selected header dropdown toggle and link items */
   --txt-main:            #DBC3A9;               /* main body text */
   --txt-alt1:            #DBC3A9;               /* announcements */
   --txt-alt2:            #1C1918;               /* checkbox checkmark, help symbol, event announcements etc. */
 
   /* links */
   --link:                #A374E3;                    /* link color */
-  --link-hgl:            #712BD4;                    /* color for hovered/focused links */
+  --link-hgl:            #551F84;                    /* color for hovered/focused links */
   --link-visited:        #806C63;                    /* color for already visited links + header search bar icon */
   --link-underline:      1px solid transparent;      /* link underline => delete "transparent" to make link underlines visible */
 
@@ -121,7 +121,7 @@ Color palettes:
   --int-checked:         #5D24AE;                  /* checked checkboxes and radio buttons */
   
   --int-hgl:             #A374E3;                  /* highlight for hovered/focused/selected elements (text, filter-tickboxes) */
-  --int-hgl-bg:          #FFC88A;                  /* background for hovered/focused list items */
+  --int-hgl-bg:          #D7C4F3;                  /* background for hovered/focused list items */
   --int-hgl-txt:         #171717;                  /* text for hovered/focused list items and for collection header */
 
 
@@ -176,7 +176,7 @@ Color palettes:
   --tag-border:          transparent;
 
   /* hover and focus */
-  --tag-hgl-bg:          #FFC88A;           /* background */
+  --tag-hgl-bg:          #D7C4F3;           /* background */
   --tag-hgl-txt:         #171717;           /* text */
 
 
@@ -200,8 +200,8 @@ Color palettes:
 /* the colors of the following elements can only be changed using filters; adjust filter values to change colors */
 
 /* #A374E3 */  --header-icon:         brightness(0) saturate(100%) invert(65%) sepia(24%) saturate(7002%) hue-rotate(222deg) brightness(90%) contrast(97%);
-/* #FFC88A */  --header-icon-hgl:     brightness(0) saturate(100%) invert(96%) sepia(65%) saturate(3439%) hue-rotate(300deg) brightness(103%) contrast(118%);
-/* #FFC88A */  --kudos-icon:          brightness(0) saturate(100%) invert(93%) sepia(72%) saturate(4727%) hue-rotate(302deg) brightness(107%) contrast(102%);
+/* #D7C4F3 */  --header-icon-hgl:     brightness(0) saturate(100%) invert(96%) sepia(65%) saturate(3439%) hue-rotate(300deg) brightness(103%) contrast(118%);
+/* #D7C4F3 */  --kudos-icon:          brightness(0) saturate(100%) invert(93%) sepia(72%) saturate(4727%) hue-rotate(302deg) brightness(107%) contrast(102%);
 /* #DBC3A9 */  --lock-icon:           brightness(0) saturate(100%) invert(86%) sepia(21%) saturate(336%) hue-rotate(348deg) brightness(91%) contrast(87%);
 /* #806C63 */  --stats-icon:          brightness(0) saturate(100%) invert(45%) sepia(5%) saturate(1477%) hue-rotate(333deg) brightness(93%) contrast(85%);
             --stat-chart:          invert(100%) hue-rotate(150deg) brightness(85%) contrast(77%);

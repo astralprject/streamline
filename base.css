@@ -1217,7 +1217,7 @@ textarea.LV_invalid_field:is(:hover, :focus) {
 #ui-datepicker-div {
   border: var(--border-width) solid var(--border4);
   border-radius: var(--radius-mid);
-  box-shadow: var(--shadow);
+  box-shadow: none !important;
   background: var(--bg6);
 }
 
@@ -1305,7 +1305,7 @@ form.single input[type=submit] {
   padding: 0.643em;
   border: var(--border-width) solid var(--border3);
   border-radius: var(--radius-big);
-  box-shadow: var(--shadow);
+  box-shadow: none !important;
   background-color: var(--bg4);
   color: var(--txt-main);
 }
@@ -1368,7 +1368,7 @@ button,
   padding: 0.25em 0.75em;
   border: var(--border-width) solid var(--int-btn-border);
   border-radius: var(--radius-btn);
-  box-shadow: var(--shadow-buttons);
+  box-shadow: none !important;
   background: var(--int-btn-bg);
   background-origin: border-box !important; /* make background images/gradients start from the corner of the border, NOT the corner of the padding edge */
   font-weight: 400;
@@ -1459,7 +1459,7 @@ span.delete a {
   position: absolute;
   border: var(--border-width) solid var(--border3);
   border-radius: var(--radius-mid);
-  box-shadow: var(--shadow);
+  box-shadow: none !important;
   background-color: var(--bg6);
   color: var(--main-txt);
 }
@@ -1503,7 +1503,7 @@ fieldset.actions li:not(:first-child) {
   position: absolute;
   border: var(--border-width) solid var(--border3);
   border-radius: var(--radius-mid);
-  box-shadow: var(--shadow);
+  box-shadow: none !important;
   background-color: var(--bg6);
   color: var(--main-txt);
 }
@@ -4033,7 +4033,7 @@ dl.stats dd {
   padding: 0.3em;
   border: 1px solid var(--border4);
   border-radius: var(--radius-small);
-  box-shadow: var(--shadow);
+  box-shadow: none !important;
   background: var(--bg6);
   font-size: 0.8em;
   line-height: 1;

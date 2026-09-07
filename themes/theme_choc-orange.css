@@ -53,7 +53,7 @@ Color palettes:
 
 /*>========== MAIN BACKGROUND COLORS ==========<*/
 
-  --bg1:                 #1C1918;                /* main background, footer etc. */
+  --bg1:                 #1C1818;                /* main background, footer etc. */
   --bg2:                 #2B2625;                /* header */
   --bg3:                 transparent;            /* dashboard */
   --bg4:                 #2B2625;                /* forms, modal dialogs, javascript context etc. */
@@ -157,9 +157,9 @@ Color palettes:
   /* background */
   --tag-default-bg:      #1C1918;
   --tag-fandom-bg:       #1C1918;
-  --tag-warning-bg:      #E56250;   /* dark */
-  --tag-ship-bg:         #F2965C;   /* medium */
-  --tag-platonic-bg:     #EBAD6E;   /* light */
+  --tag-warning-bg:      #417548;/*E56250;   /* dark */
+  --tag-ship-bg:         #EBAD6E;   /* light */
+  --tag-platonic-bg:     #F2965C;   /* medium */
   --tag-character-bg:    #1C1918;
   --tag-freeform-bg:     #1C1918;
 
@@ -169,8 +169,8 @@ Color palettes:
   --tag-warning-txt:     #171717;
   --tag-ship-txt:        #171717;
   --tag-platonic-txt:    #171717;
-  --tag-character-txt:   #F79D65;   /* dark */
-  --tag-freeform-txt:    #F5B97D;   /* light */
+  --tag-character-txt:   #F5B97D;   /* light */
+  --tag-freeform-txt:    #F79D65;   /* dark */
 
   /* border */
   --tag-border:          transparent;

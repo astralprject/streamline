@@ -66,10 +66,10 @@ Color palettes:
 /*>========== MAIN BORDERS ==========<*/
 
   /* colors */
-  --border1:             #423833;                /* dashboard, footer, news, blockquote, scrollbar track etc. */
-  --border2:             #423833;                /* header, tables, forms, input elements, listbox etc. */
-  --border3:             #423833;                /* content boxes (blurbs, comments etc.), dropdown and secondary menus */
-  --border4:             #423833;                /* scrollbar thumb, meta boxes, tooltips, some heading underlines etc. */
+  --border1:             #423533;/*#4 23833;                /* dashboard, footer, news, blockquote, scrollbar track etc. */
+  --border2:             #423533;                /* header, tables, forms, input elements, listbox etc. */
+  --border3:             #423533;                /* content boxes (blurbs, comments etc.), dropdown and secondary menus */
+  --border4:             #423533;                /* scrollbar thumb, meta boxes, tooltips, some heading underlines etc. */
 
   /* width */
   --border-width:        1.5px;                /* for almost all borders (experimental - changing this might cause some weirdness) */
@@ -90,14 +90,14 @@ Color palettes:
   --txt-size-work:       105%;             /* work text size */
 
   /* text colors */
-  --txt-header:          #C495F0;               /* header text */
+  --txt-header:          #B793DB;               /* header text */
   --txt-header-hgl:      #E7C5F1;               /* selected header dropdown toggle and link items */
-  --txt-main:            #DBC3A9;               /* main body text */
-  --txt-alt1:            #DBC3A9;               /* announcements */
+  --txt-main:            #DBBBA9;/*D BC3A9;               /* main body text */
+  --txt-alt1:            #DBBBA9;               /* announcements */
   --txt-alt2:            #1C1918;               /* checkbox checkmark, help symbol, event announcements etc. */
 
   /* links */
-  --link:                #C495F0;                    /* link color */
+  --link:                #B793DB;                    /* link color */
   --link-hgl:            #551F84;                    /* color for hovered/focused links */
   --link-visited:        #806C63;                    /* color for already visited links + header search bar icon */
   --link-underline:      1px solid transparent;      /* link underline => delete "transparent" to make link underlines visible */
@@ -109,8 +109,8 @@ Color palettes:
   /* button colors */
   --int-btn-bg:          #2B2625;                  /* background */
   --int-btn-border:      #423833;                  /* border */
-  --int-btn-txt:         #C495F0;                  /* text */
-  --int-btn-hgl-bg:      #E7C5F1;/*#E 0C5F1;                   background for hovered/focused buttons */
+  --int-btn-txt:         #B793DB;                  /* text */
+  --int-btn-hgl-bg:      #AE8CBA;                  /* background for hovered/focused buttons */
   --int-btn-hgl-txt:     #171717;                  /* text for hovered/focused buttons */                                                                        
   
   --int-bg:            #11111159;                  /* background for input and select elements */
@@ -120,7 +120,7 @@ Color palettes:
   --int-disabled-bg:     #2E2A28;                  /* background for disabled buttons and checkboxes */
   --int-checked:         #5D24AE;                  /* checked checkboxes and radio buttons */
   
-  --int-hgl:             #A374E3;                  /* highlight for hovered/focused/selected elements (text, filter-tickboxes) */
+  --int-hgl:             #6577A6;                  /* highlight for hovered/focused/selected elements (text, filter-tickboxes) */
   --int-hgl-bg:          #E7C5F1;                  /* background for hovered/focused list items */
   --int-hgl-txt:         #171717;                  /* text for hovered/focused list items and for collection header */
 
@@ -157,20 +157,20 @@ Color palettes:
   /* background */
   --tag-default-bg:      #1C1918;
   --tag-fandom-bg:       #1C1918;
-  --tag-warning-bg:      #6D1F91;   /* dark */
-  --tag-ship-bg:         #9B56D7;   /* medium */
-  --tag-platonic-bg:     #C495F0;   /* light */
+  --tag-warning-bg:      #6577A6;/*6C458C;   /* dark */
+  --tag-ship-bg:         #B793DB;   /* light */
+  --tag-platonic-bg:     #8E64B3;   /* medium */
   --tag-character-bg:    #1C1918;
   --tag-freeform-bg:     #1C1918;
 
   /* text */
-  --tag-default-txt:     #DBC3A9;
-  --tag-fandom-txt:      #DBC3A9;
+  --tag-default-txt:     #DBBBA9;
+  --tag-fandom-txt:      #DBBBA9;
   --tag-warning-txt:     #171717;
   --tag-ship-txt:        #171717;
   --tag-platonic-txt:    #171717;
-  --tag-character-txt:   #9B56D7;   /* dark */
-  --tag-freeform-txt:    #E7C5F1;   /* light */
+  --tag-character-txt:   #C799CF;   /* light */
+  --tag-freeform-txt:    #7E5099;   /* dark */
 
   /* border */
   --tag-border:          transparent;
@@ -199,10 +199,10 @@ Color palettes:
 /*>========== FILTERS ==========<*/
 /* the colors of the following elements can only be changed using filters; adjust filter values to change colors */
 
-/* #C495F0 */  --header-icon:         brightness(0) saturate(100%) invert(65%) sepia(34%) saturate(1013%) hue-rotate(215deg) brightness(100%) contrast(89%);
-/* #E7C5F1 */  --header-icon-hgl:     brightness(0) saturate(100%) invert(85%) sepia(34%) saturate(755%) hue-rotate(195deg) brightness(96%) contrast(98%);
-/* #E7C5F1 */  --kudos-icon:          brightness(0) saturate(100%) invert(85%) sepia(34%) saturate(755%) hue-rotate(195deg) brightness(96%) contrast(98%);
-/* #DBC3A9 */  --lock-icon:           brightness(0) saturate(100%) invert(86%) sepia(21%) saturate(336%) hue-rotate(348deg) brightness(91%) contrast(87%);
+/* #B793DB */  --header-icon:         brightness(0) saturate(100%) invert(79%) sepia(11%) saturate(4693%) hue-rotate(203deg) brightness(89%) contrast(92%);
+/* #E7C5F1 */  --header-icon-hgl:     brightness(0) saturate(100%) invert(100%) sepia(52%) saturate(3316%) hue-rotate(187deg) brightness(95%) contrast(98%);
+/* #E7C5F1 */  --kudos-icon:          brightness(0) saturate(100%) invert(100%) sepia(52%) saturate(3316%) hue-rotate(187deg) brightness(95%) contrast(98%);
+/* #DBBBA9 */  --lock-icon:           brightness(0) saturate(100%) invert(86%) sepia(21%) saturate(336%) hue-rotate(348deg) brightness(91%) contrast(87%);
 /* #806C63 */  --stats-icon:          brightness(0) saturate(100%) invert(45%) sepia(5%) saturate(1477%) hue-rotate(333deg) brightness(93%) contrast(85%);
             --stat-chart:          invert(100%) hue-rotate(150deg) brightness(85%) contrast(77%);
             --rich-txt-editor:     invert(95%) saturate(0);

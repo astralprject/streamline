@@ -304,7 +304,7 @@ col.name {
   max-width: 100%;
   margin: 0;
   border-bottom: var(--border-width) solid var(--border2);
-  box-shadow: var(--shadow-header);
+  box-shadow: none !important;
   background: var(--bg2);
 }
 
@@ -359,7 +359,7 @@ col.name {
   padding: 0.25em 0;
   border: 1px solid var(--border3);
   border-radius: var(--radius-mid);
-  box-shadow: var(--shadow);
+  box-shadow: none !important;
   background: var(--bg6);
   font-size: 0.95em;
 }
@@ -663,7 +663,7 @@ col.name {
   margin-block: 0.25em;
   padding: 0.25em;
   border: var(--border-width) solid var(--border3);
-  box-shadow: var(--shadow);
+  box-shadow: none !important;
   background-color: var(--bg6);
 }
 
@@ -1166,7 +1166,7 @@ textarea.LV_invalid_field:is(:hover, :focus) {
   padding: 0.125em;
   border: 1px solid var(--border4);
   border-radius: var(--radius-small);
-  box-shadow: var(--shadow);
+  box-shadow: none !important;
   background: var(--bg6);
   color: var(--txt-main);
 }
@@ -1191,7 +1191,7 @@ textarea.LV_invalid_field:is(:hover, :focus) {
 .autocomplete .notice {
   border: 1px solid var(--border4);
   border-radius: var(--radius-small);
-  box-shadow: var(--shadow);
+  box-shadow: none !important;
   background: var(--bg6);
   font-size: 0.95em;
   color: var(--txt-main);
@@ -1209,7 +1209,7 @@ textarea.LV_invalid_field:is(:hover, :focus) {
 
 .ui-sortable li:hover:not(.ui-sortable ul.actions li:hover),
 .ui-draggable form {
-  box-shadow: var(--shadow);
+  box-shadow: none !important;
 }
 
 /*>========== WIDGET: DATEPICKER, TIMEPICKER ==========<*/
@@ -1249,7 +1249,7 @@ textarea.LV_invalid_field:is(:hover, :focus) {
   padding: 0.429em;
   border: 1px solid var(--border4);
   border-radius: var(--radius-small);
-  box-shadow: var(--shadow);
+  box-shadow: none !important;
   background: var(--bg6);
   color: var(--txt-main);
 }
